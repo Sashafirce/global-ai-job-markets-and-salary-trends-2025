@@ -71,11 +71,11 @@ Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it wi
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
 6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
 
-## AI Job Market Visualizations in Tableau – Key Insights
+### AI Job Market Visualizations in Tableau – Key Insights
 
 These Tableau visualizations reveal key trends in AI jobs, covering locations, in-demand skills, salaries, and benefits. They help job seekers and analysts understand the AI employment landscape.
 
-### Story Flow
+#### Story Flow
 
 1. **Where** – AI job locations
 2. **What Skills** – Top in-demand skills
@@ -85,7 +85,7 @@ These Tableau visualizations reveal key trends in AI jobs, covering locations, i
 6. **Company Size Effect** – Salaries in startups vs large firms
 7. **Total Compensation** – Salary vs benefits relationship
 
-### Chart Overview & Findings
+#### Chart Overview & Findings
 
 - **Where the AI Jobs Are (Bubble Chart):** Germany leads with 814 jobs; most countries have 700–800 listings.
 - **Top In-Demand Skills (Bar Chart):** Python is top skill (4,450 mentions), followed by SQL (3,407).
@@ -95,8 +95,9 @@ These Tableau visualizations reveal key trends in AI jobs, covering locations, i
 - **AI Salaries by Company Size and Experience (Area Chart):** Large companies pay more at all experience levels.
 - **Benefits vs Salary (Scatter Plot):** Slight inverse relation; higher salary jobs tend to offer marginally fewer benefits.
 
-Explore these **Tableau visualizations** to gain insights into the AI job market, from locations and skills to compensation.
+Explore this **Tableau dashboard** to understand AI job market dynamics from location and skills to compensation:  
+To view Tableau dashboard, [click here](https://public.tableau.com/app/profile/angel.jayakumar/viz/AIJobsSalaryAnalytics/AIJobsSalaryAnalytics).
 
-## AI Skills Word Cloud – A Visual Insight into In-Demand Technologies
+### AI Skills Word Cloud – A Visual Insight into In-Demand Technologies
 
 This project creates a word cloud to highlight the most in-demand skills in the AI job market. It uses a cleaned dataset of AI-related job listings, with skills like Python, SQL, TensorFlow, and AWS represented as one-hot encoded columns. The script calculates the frequency of each skill and visualizes them using Python’s WordCloud library. A dark background with the professional `cividis` colormap gives the output a clean and modern appearance. The final image, `skills_wordcloud.png`, offers a quick and engaging way to see which technologies are most valued in AI careers.

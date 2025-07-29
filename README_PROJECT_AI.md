@@ -1,6 +1,6 @@
 # ![CI logo]
 
-## Global AI Job Markets And Salary 
+## Global AI Job Markets And Salary
 
 Welcome,
 
@@ -27,9 +27,9 @@ You can safely delete the Template Instructions section of this README.md file a
 1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
 
 1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+   Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
+1. In the command palette, type: _create environment_ and select **Python: Create Environment…**
 
 1. Choose **Venv** from the dropdown list.
 
@@ -45,9 +45,9 @@ Click the gear icon in the lower left-hand corner of the screen to open the Mana
 
 1. In the terminal, use the command below to install your dependencies. This may take several minutes.
 
- ```console
- pip3 install -r requirements.txt
- ```
+```console
+pip3 install -r requirements.txt
+```
 
 1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
 
@@ -61,8 +61,8 @@ Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it wi
 
 ## Deployment Reminders
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
+- Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
+- The project can be deployed to Heroku using the following steps.
 
 1. Log in to Heroku and create an App
 2. At the **Deploy** tab, select **GitHub** as the deployment method.
@@ -70,3 +70,34 @@ Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it wi
 4. Select the branch you want to deploy, then click **Deploy Branch**.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
 6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+
+### AI Job Market Visualizations in Tableau – Key Insights
+
+These Tableau visualizations reveal key trends in AI jobs, covering locations, in-demand skills, salaries, and benefits. They help job seekers and analysts understand the AI employment landscape.
+
+#### Story Flow
+
+1. **Where** – AI job locations
+2. **What Skills** – Top in-demand skills
+3. **Market Trends** – Salary changes over time
+4. **Geographic Pay** – Highest paying countries
+5. **Experience Impact** – Salary by role level
+6. **Company Size Effect** – Salaries in startups vs large firms
+7. **Total Compensation** – Salary vs benefits relationship
+
+#### Chart Overview & Findings
+
+- **Where the AI Jobs Are (Bubble Chart):** Germany leads with 814 jobs; most countries have 700–800 listings.
+- **Top In-Demand Skills (Bar Chart):** Python is top skill (4,450 mentions), followed by SQL (3,407).
+- **AI Salary Trends Over Time (Line Chart):** Salaries are stable year-round with no seasonal changes.
+- **Country vs Avg Salary (Bar Chart):** Switzerland ($162K) and Denmark ($159K) pay the highest salaries.
+- **Experience Pays: Salary by Role (Box Plot):** Executives earn the most (median $168K), followed by senior roles.
+- **AI Salaries by Company Size and Experience (Area Chart):** Large companies pay more at all experience levels.
+- **Benefits vs Salary (Scatter Plot):** Slight inverse relation; higher salary jobs tend to offer marginally fewer benefits.
+
+Explore this **Tableau dashboard** to understand AI job market dynamics from location and skills to compensation:  
+To view Tableau dashboard, [click here](https://public.tableau.com/app/profile/angel.jayakumar/viz/AIJobsSalaryAnalytics/AIJobsSalaryAnalytics).
+
+### AI Skills Word Cloud – A Visual Insight into In-Demand Technologies
+
+This project creates a word cloud to highlight the most in-demand skills in the AI job market. It uses a cleaned dataset of AI-related job listings, with skills like Python, SQL, TensorFlow, and AWS represented as one-hot encoded columns. The script calculates the frequency of each skill and visualizes them using Python’s WordCloud library. A dark background with the professional `cividis` colormap gives the output a clean and modern appearance. The final image, `skills_wordcloud.png`, offers a quick and engaging way to see which technologies are most valued in AI careers.

@@ -1,6 +1,6 @@
 ![Alt Text](https://github.com/Sashafirce/global-ai-job-markets-and-salary-trends-2025/blob/23eab21a245918b7367c9d0508d73fbbe8c4ad58/Global%20AI%20Jobe%20Markets%20%26%20Salary%20Trend%202025.png)
 
-## Global Ai Job Markets and Salary Trend 2025
+## Global AI Job Markets and Salary Trend 2025
 ### INTRODUCTION 
 The "Global AI Job Markets and Salary Trend 2025" project analyses global tendencies in employment opportunities in AI. It is focused on the variation of salaries based on job role, location, benefit package, level of experience, and work-from-home availability. The objective is to convey actionable insights through data display and text that help job applicants, recruiters, and policy makers make informed decisions regarding employment within the evolving AI workforce.
 
@@ -23,23 +23,63 @@ Analysed salary, job type, benefits, and experience data. Hypothesis tested on r
 **Data Visualiser**
 Created and refined the Tableau dashboard. Created simple-to-use visuals to explore trends by role, region, and experience. Worked with the Design Thinker and Analyst to present findings effectively using graphs, filters, and layout options created for different types of users.
 
+### Design Thinking
+
+**Objective:**
+
+To uncover and visualise global trends in AI employment markets in the areas of salary norms, remote work trends, benefit structures, and experience level impact — arming job seekers, recruiters, and policymakers with evidence-based information.
+
+**Scope:**
+
+- Analyse AI job postings from international datasets
+- 
+- Investigate how compensation is affected by:
+   - Remote vs. on-site jobs
+   - Benefits offered
+   - Experience level (entry through executive)
+   - Deliver a visual dashboard and study outcomes to guide workforce planning and job search planning
+
+Key Stakeholders
+
+• AI candidates (e.g., recent graduates, career changers)
+• Recruiters and hiring managers
+
+Deliverables:
+
+• Hypothesis-driven analysis
+• Tableau dashboard (interactive filters by role, region, and salary)
+• Empathy maps and user personas
+• Final report & ppt presentation
+• Optional app prototype (role-based insights)
+
+Impact:
+
+• Assist candidates in discovering the most suitable AI roles worldwide
+• Assist companies in developing competitive job offers
+
+
 
 ### Dataset Content
-The data is sourced from Kaggle public domain and contains different attributes of salary information, job requirements, company insights, and geographic trends. https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025/ddata
+
+The data is sourced from the Kaggle public domain and contains various attributes, including salary information, job requirements, company insights, and geographic trends. https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025/ddata
 
 ### Business Requirement
+
 **Project Objectives**
+
 - Uncover salary trends in AI jobs globally
 - Compare pay for remote work vs. in-office work
 - Examine the influence of benefits and amount of experience on salary
-- Provide filtered, user-centered visualizations to guide decision-making
+- Provide filtered, user-centred visualisations to guide decision-making
 - Create a prototype dashboard or application that is advantageous for job seekers and workforce planners
   
 **Target Stakeholders**
+
 - **Job Seekers**: Explore actual salary ranges by occupation, location, and level of experience
-- **Recruiters**: Compare salary proposals and gain insights on market trends in order to recruit the best talent
+- **Recruiters**: Compare salary proposals and gain insights on market trends to recruit the best talent
 
 **Functional Requirements**
+
 - Clean and process raw AI job data sets
 - Examine wage trends using grouped statistical analysis
 - Create interactive visualisations and dashboards (Tableau + Streamlit)
@@ -47,13 +87,14 @@ The data is sourced from Kaggle public domain and contains different attributes 
 - Create a scalable app interface for public or stakeholder consumption
   
 **Non-Functional Requirements**
+
 - Must be understandable to non-technical users (good labelling and narration)
 - Must be ethically sound (no deceiving or biased assertions)
 -Have to be flexible and extendable enough for future time-based or regional revisions
 
 ### Hypothesis and how to validate?
 
-** Hypothesis 1: Higher benefits scores correlate with higher salaries (USD equivalent)**
+**Hypothesis 1: Higher benefits scores correlate with higher salaries (USD equivalent)**
 ![hypothesis1testing](data/inputs/images/hypothesis_1_testing.jpg)
 
 **Rationale**: Companies offering better benefits may also tend to provide more competitive salaries to attract top AI talent.
@@ -63,6 +104,7 @@ Interpretation: Weak positive correlation
 * Do not support Hypothesis 1
   
 **Implication** 
+
 * Companies with excellent benefits (>8.5) do NOT necessarily offer higher salaries
 * Benefits and salary appear to be independent compensation components
 * High-benefit companies may use benefits as a substitute rather than a complement to high salaries
@@ -71,15 +113,18 @@ Interpretation: Weak positive correlation
 ![hypothesis2testing](data/inputs/images/hypothesis_2_testing.png)
 
 **Rationale**: Remote work may be used as an incentive or may reflect more specialised roles that command higher pay.
+
 **Validation Method**: Matplotlib Boxplot: Compare salary distributions across remote work arrangements
 
 **Hypothesis Testing Results**: 
+
 * Fully Remote ($116,161) > On-site ($114,140) - Salary premium confirmed
 * Statistical Significance: The difference is measurable and consistent
 * Modest salary premium: +1.8% difference between remote and on-site
 * Supported Hypothesis 2
   
 **Implication**
+
 * Remote Premium Exists: Companies do pay slightly more for remote flexibility
 * Competitive Advantage: Remote work can be a modest salary differentiator
 * Talent Strategy: Remote roles may attract candidates seeking both flexibility AND competitive pay
@@ -87,7 +132,8 @@ Interpretation: Weak positive correlation
 ### Hypothesis 3: Experience level significantly affects salary, especially at the executive (EX) level.
 ![hypothesis3testing ](data/inputs/images/hypothesis_3_testing.png)
 
-### Rationale: Experience level has a direct impact on salary
+### Rationale: Experience level has a direct impact on salary.
+
 **Validation Method**: ANOVA Testing Matplotlib Bar Chart: Compare salary distributions across remote work arrangements
 
 **Hypothesis Testing Results**:  
@@ -127,17 +173,18 @@ Exploration guided by the hypotheses built using design thinking.
 
 **4. Hypothesis Testing & Analysis**
 
-    Three data-driven hypotheses were tested using grouped statistics, visual comparisons, and correlation analysis:
+- Three data-driven hypotheses were tested using grouped statistics, visual comparisons, and correlation analysis:
 
        
 **5. Data Visualisation & Interpretation**
 
-    Designed a Tableau dashboard with interactive filters:
+- Designed a Tableau dashboard with interactive filters:
+  
 Visuals were aligned to the initial user needs to maintain relevance and clarity.
 
-** 6. Presentation & Final Delivery**
+**6. Presentation & Final Delivery**
 
-    The following deliverables were provided: Empathy maps, project summary, hypotheses, findings, Tableau dashboard, and final PPT presentation. 
+- The following deliverables were provided: Empathy maps, project summary, hypotheses, findings, Tableau dashboard, and final PPT presentation. 
 
 ### ETL Steps
 **Data Extraction & Combination**
@@ -175,39 +222,36 @@ Ready for:
  Statistical insights & trend reporting
  
 ### EDA Steps
+
 This notebook explores the **cleaned dataset** (`ai_jobs_final.csv`) created during the ETL phase. 
+
 Using Matplotlib, Seaborn, and Plotly, we generate visualisations to uncover patterns, relationships, and trends in the AI job market.
-- Goal of This Notebook
+
+**Goal of this notebook**
  Understand how salaries vary by experience, industry, and work setup 
  Identify job posting trends over time
  Explore top AI job titles and hiring company characteristics
 - Data Source
  Input file: `../data/inputs/cleaned/ai_jobs_final.csv` 
 - This file is the output of our ETL process (01_etl_ai_jobs.ipynb).  
-Tools Used
-Pandas & NumPy – Data wrangling and summaries 
-Matplotlib & Seaborn – Static, high-resolution plots 
-Plotly – Interactive charts for deeper exploration  
-Key Visuals Generated
-Salary by Experience Level (Box Plot) – Seaborn
-Compares salary distributions across:
-Entry-level
-Mid-level
-Senior
-Executive roles 
 
-Monthly AI Job Postings Trend (Line Chart) – Plotly
-Shows how AI job postings evolved over time. 
+**Tools Used**
+- Pandas & NumPy – Data wrangling and summaries 
+- Matplotlib & Seaborn – Static, high-resolution plots 
+- Plotly – Interactive charts for deeper exploration
+
+**Key Visuals Generated**
+
+- Salary by Experience Level (Box Plot) – Seaborn. Compares salary distributions across: Entry-level, Mid-level, Senior Executive roles 
+
+- Monthly AI Job Postings Trend (Line Chart) – Plotly. Shows how AI job postings have evolved over time. 
  Interactive HTML version included for deeper exploration.  
 
-Salary by Industry (Box Plot) – Seaborn  
-Focuses on top 15 industries, showing salary variation.  
+- Salary by Industry (Box Plot) – Seaborn. Focuses on the top 15 industries, showing salary variation.  
 
-Company Size vs. Remote Preference (Count Plot) – Seaborn 
- Displays how remote/hybrid/on-site jobs are distributed by company size.  
+- Company Size vs. Remote Preference (Count Plot) – Seaborn. Displays how remote/hybrid/on-site jobs are distributed by company size.  
 
-Top 10 AI Job Titles (Bar Plot) – Seaborn  
-Highlights the most frequent AI-related job titles in the dataset. 
+- Top 10 AI Job Titles (Bar Plot) – Seaborn . Highlights the most frequent AI-related job titles in the dataset. 
 
 | Chart | Description | Tool | File |
 |------|-------------|------|-----|
@@ -219,7 +263,7 @@ Highlights the most frequent AI-related job titles in the dataset.
  
 
 #### Conclusion
-The ETL phase successfully transformed raw AI job market data into a clean, structured dataset, ensuring reliability for further analysis. Key steps like currency normalization, experience level categorization, and duplicate removal built a solid foundation for data-driven insights.
+The ETL phase successfully transformed raw AI job market data into a clean, structured dataset, ensuring reliability for further analysis. Key steps like currency normalisation, experience level categorisation, and duplicate removal built a solid foundation for data-driven insights.
 
 Building on this, the EDA phase revealed important trends and patterns:
 - Salaries rise with experience level, with executives earning the highest pay. 
@@ -249,7 +293,7 @@ Trend Identification: Highlighted patterns in remote work adoption and company h
 Outlier Detection: Flagged unusual salary values and extreme cases for further review.
 
 **Dashboard Techniques**
-The analysis was performed using Python libraries including pandas, numpy, seaborn, matplotlib, scipy, and wordcloud. Salary outliers were handled using Winsorization based on IQR detection. Data cleaning involved parsing and cleaning skill-related fields. Feature engineering included creating a skills column and applying one-hot encoding to extract and analyze in-demand skills effectively.
+The analysis was performed using Python libraries including pandas, numpy, seaborn, matplotlib, scipy, and wordcloud. Salary outliers were handled using Winsorization based on IQR detection. Data cleaning involved parsing and cleaning skill-related fields. Feature engineering included creating a skills column and applying one-hot encoding to extract and analyse in-demand skills effectively.
 
 
 ### Ethical considerations
@@ -334,7 +378,7 @@ Introduced new fields.
 
 **Phase 3: Exploratory Analysis & Hypothesis Testing**
 Examined salary by benefit level, experience, region, remote status, and role
-Hypotheses tested on: Remote work vs. salary,  Salary vs. benefits,  Salary vs. experience leve
+Hypotheses tested on: Remote work vs. salary,  Salary vs. benefits,  Salary vs. experience level.
 
 **Challenges Encountered:** BIAS-free interpretation of regional differences
            **Method:** Visual comparison and normalised measures (e.g. salary by experience band)
@@ -359,9 +403,9 @@ R for comparative analysis (adding multi-language tool flexibility)
  **Key Findings**
 Remote roles tend to offer higher salaries: They consistently show higher median salaries compared to in-office roles. This trend suggests remote work is often used as a financial incentive or reflects more specialised, in-demand roles.
 
- Higher benefits score correlates with higher salary: Jobs that offer more comprehensive benefits programs (e.g. equity, education benefits, medical) tend to also provide better wages, implying that successful businesses invest in both.
+ Higher benefits score correlates with higher salary: Jobs that offer more comprehensive benefits programs (e.g. equity, education benefits, medical) tend also to provide better wages, implying that successful businesses invest in both.
 
-Experience level has a strong influence on compensation: There is a dramatic step-up in compensation from junior to executive levels. The step-up to the executive level is even more dramatic, illustrating the impact of seniority and leadership experience on compensation.
+Experience level has a strong influence on compensation: There is a dramatic step-up in compensation from junior to executive levels. The step-up to the executive level is even more surprising, illustrating the impact of seniority and leadership experience on compensation.
 
 Uneven distribution of roles by regions: High-paying jobs are located primarily in Western Europe and North America, and fewer entry-level and lower-paying jobs are advertised in emerging economies. Remote jobs reduce this imbalance to some degree, but not completely.
 
@@ -392,7 +436,7 @@ In the spirit of openness and responsible project practice, the following materi
 
  **Academic references**
 Mckinsey(2025).McKinsey: A new operating model for people management: More personal, more tech, more human.Available at: https://www.mckinsey.de/capabilities/people-and-organizational-performance/our-insights/a-new-operating-model-for-people-management-more-personal-more-tech-more-human 
-geeksforgeeks(2025).Difference between t-test and ANOVA. Available at:https://www.geeksforgeeks.org/data-science/difference-between-t-test-and-anova/ 
+geeksforgeeks(2025).Difference between t-test and ANOVA. Available at: https://www.geeksforgeeks.org/data-science/difference-between-t-test-and-anova/
 
  **Content & Code References**
 
@@ -412,7 +456,7 @@ Canva assets – empathy maps and persona visuals
  Fonts for final cover slides and mockups were borrowed from Canva's free license library
  Cover image design and empathy maps were designed using free-use templates in Canva.
  
-### Acknowledgements (optional)
+### Acknowledgements
 Thanks to our tutor Emma and all the instructors, Niel, Spencer, Mark, and John. Also, to our peers who supported us throughout the course.
 
 
